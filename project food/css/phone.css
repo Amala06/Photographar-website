@@ -1,0 +1,58 @@
+body{
+    background-color: crimson;
+}
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 0px;
+}
+#home::before {
+    
+   
+    height: 104%;
+    width: 119%;
+   }
+
+#home{
+height: 370px;
+flex-direction: column;
+}
+#home img{
+height: 480;
+width: 388px;
+}
+#service .box{
+    padding: 8px 128px;
+    margin: 37px auto;
+    text-align: justify;
+    align-items: center;
+    width: 345px;
+}
+#home p{
+    font-size: 12px;
+    padding: 3px;
+}
+#service{
+flex-direction: column;
+}
+#service .box{
+   
+}
+
+#clients {
+    /* overflow: hidden; */
+    display: flex;
+    flex-wrap: wrap;
+}
+#clients img {
+    /* overflow: hidden; */
+    /* flex-wrap: wrap; */
+    width: 66px;
+    padding: 2px;
+}
+.h1primary{
+    font-size: 1rem;
+}
